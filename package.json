@@ -1,0 +1,45 @@
+{
+  "name": "axios-cache-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node ./src/start.ts",
+    "test": "echo 'Setup some test'",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amrendr-cb/axios-cache-examples.git"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "axios-cache-interceptor": "^1.4.0"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1",
+    "semantic-release": "^22.0.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
