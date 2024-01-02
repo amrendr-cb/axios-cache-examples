@@ -16,8 +16,8 @@
     "url": "https://github.com/amrendr-cb/axios-cache-examples.git"
   },
   "dependencies": {
-    "axios": "^1.6.2",
-    "axios-cache-interceptor": "^1.4.0"
+    "axios": "^1.6.3",
+    "axios-cache-interceptor": "^1.4.1"
   },
   "publishConfig": {
     "access": "restricted"

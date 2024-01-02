@@ -1,7 +1,6 @@
 import Axios from 'axios';
 import { setupCache } from 'axios-cache-interceptor';
 
-// @ts-expect-error https://github.com/arthurfiorette/axios-cache-interceptor/issues/746
 const axios = setupCache(Axios);
 
 export const getIpInfo = async (ip: string) => {
